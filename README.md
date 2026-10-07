@@ -29,9 +29,12 @@ pip install customtkinter
 
 ```
 .
-├── main.py        # main file(for run project)
-├── gui.py        # CustomTkinter interface (InventoryApp)
-├── database.py   # Data layer used by the GUI
+├── main/
+│   ├── main.py       # Entry point, launches the app
+│   ├── gui.py        # CustomTkinter interface (InventoryApp)
+│   ├── database.py   # Data layer used by the GUI
+│   └── inventory.db  # SQLite database (created automatically if missing)
+├── LICENSE
 └── README.md
 ```
 
